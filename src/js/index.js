@@ -1,10 +1,10 @@
 import * as Charts from './chart';
 
-let frappe     = { };
+let capkpi     = { };
 
-frappe.NAME    = 'Frappe Charts';
-frappe.VERSION = '1.6.2';
+capkpi.NAME    = 'CapKPI Charts';
+capkpi.VERSION = '1.6.2';
 
-frappe         = Object.assign({ }, frappe, Charts);
+capkpi         = Object.assign({ }, capkpi, Charts);
 
-export default frappe;
+export default capkpi;

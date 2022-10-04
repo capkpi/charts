@@ -1,30 +1,30 @@
 <div align="center">
-    <img src="https://github.com/frappe/design/blob/master/logos/logo-2019/frappe-charts-logo.png" height="128">
-    <a href="https://frappe.github.io/charts">
-        <h2>Frappe Charts</h2>
+    <img src="https://github.com/capkpi/design/blob/master/logos/logo-2019/capkpi-charts-logo.png" height="128">
+    <a href="https://capkpi.github.io/charts">
+        <h2>CapKPI Charts</h2>
     </a>
     <p align="center">
         <p>GitHub-inspired modern, intuitive and responsive charts with zero dependencies</p>
-        <a href="https://frappe.io/charts">
+        <a href="https://capkpi.io/charts">
             <b>Explore Demos » </b>
         </a>
-        <a href="https://codesandbox.io/s/frappe-charts-demo-viqud">
+        <a href="https://codesandbox.io/s/capkpi-charts-demo-viqud">
             <b> Edit at CodeSandbox »</b>
         </a>
-        <a href="https://frappe.io/charts/docs">
+        <a href="https://capkpi.io/charts/docs">
             <b>Documentation » </b>
         </a>
     </p>
 </div>
 
 <p align="center">
-    <a href="https://bundlephobia.com/result?p=frappe-charts">
-        <img src="https://img.shields.io/bundlephobia/minzip/frappe-charts">
+    <a href="https://bundlephobia.com/result?p=capkpi-charts">
+        <img src="https://img.shields.io/bundlephobia/minzip/capkpi-charts">
     </a>
 </p>
 
 <p align="center">
-    <a href="https://frappe.github.io/charts">
+    <a href="https://capkpi.github.io/charts">
         <img src=".github/example.gif">
     </a>
 </p>
@@ -32,7 +32,7 @@
 ### Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribute](https://frappe.io/charts/docs/contributing)
+* [Contribute](https://capkpi.io/charts/docs/contributing)
 * [License](#license)
 
 #### Installation
@@ -41,27 +41,27 @@
 Install via [`npm`](https://www.npmjs.com/get-npm):
 
 ```sh
-$ npm install frappe-charts
+$ npm install capkpi-charts
 ```
 
 and include in your project:
 ```js
-import { Chart } from "frappe-charts"
+import { Chart } from "capkpi-charts"
 ```
 
 Or include following for es-modules(eg:vuejs):
 ```js
-import { Chart } from 'frappe-charts/dist/frappe-charts.esm.js'
+import { Chart } from 'capkpi-charts/dist/capkpi-charts.esm.js'
 // import css
-import 'frappe-charts/dist/frappe-charts.min.css'
+import 'capkpi-charts/dist/capkpi-charts.min.css'
 ```
 
 ##### or include within your HTML
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.6.1/dist/frappe-charts.min.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/capkpi-charts@1.6.1/dist/capkpi-charts.min.umd.js"></script>
 <!-- or -->
-<script src="https://unpkg.com/frappe-charts@1.6.1/dist/frappe-charts.min.umd.js"></script>
+<script src="https://unpkg.com/capkpi-charts@1.6.1/dist/capkpi-charts.min.umd.js"></script>
 ```
 
 #### Usage
@@ -82,7 +82,7 @@ const data = {
     ]
 }
 
-const chart = new frappe.Chart("#chart", {  // or a DOM element,
+const chart = new capkpi.Chart("#chart", {  // or a DOM element,
                                             // new Chart() in case of ES6 module with above usage
     title: "My Awesome Chart",
     data: data,
@@ -92,9 +92,9 @@ const chart = new frappe.Chart("#chart", {  // or a DOM element,
 })
 ```
 
-Or for es-modules (replace `new frappe.Chart()` with `new Chart()`):
+Or for es-modules (replace `new capkpi.Chart()` with `new Chart()`):
 ```diff
-- const chart = new frappe.Chart("#chart", {
+- const chart = new capkpi.Chart("#chart", {
 + const chart = new Chart("#chart", {  // or a DOM element,
                                     // new Chart() in case of ES6 module with above usage
     title: "My Awesome Chart",
@@ -117,5 +117,5 @@ If you want to contribute:
 This repository has been released under the [MIT License](LICENSE)
 
 ------------------
-Project maintained by [Frappe](https://frappe.io).
+Project maintained by [CapKPI](https://capkpi.io).
 Used in [ERPNext](https://erpnext.com). Read the [blog post](https://medium.com/@pratu16x7/so-we-decided-to-create-our-own-charts-a95cb5032c97).

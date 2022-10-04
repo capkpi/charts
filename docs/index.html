@@ -1,11 +1,11 @@
 ---
-redirect_to: "https://frappe.io/charts"
+redirect_to: "https://capkpi.io/charts"
 ---
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Frappe Charts</title>
+    <title>CapKPI Charts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="open source javascript js charts library svg zero-dependency interactive data visualization beautiful drag resize">
     <meta name="description" content="A simple, responsive, modern charts library for the web.">
@@ -18,15 +18,15 @@ redirect_to: "https://frappe.io/charts"
     <script src="assets/js/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
-    <link rel="shortcut icon" href="https://frappe.github.io/frappe/assets/img/favicon.png" type="image/x-icon">
-    <link rel="icon" href="https://frappe.github.io/frappe/assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://capkpi.github.io/capkpi/assets/img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://capkpi.github.io/capkpi/assets/img/favicon.png" type="image/x-icon">
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <body>
     <header>
-      <h1>Frappe Charts</h1>
+      <h1>CapKPI Charts</h1>
       <p class="lead-text">GitHub-inspired simple and modern SVG charts for the web<br>with zero dependencies.</p>
       <div id="chart-composite-1" class="border"></div>
       <p class="demo-tip">Click or use arrow keys to navigate data points</p>
@@ -38,7 +38,7 @@ redirect_to: "https://frappe.io/charts"
       <pre><code class="hljs html">  &lt!--HTML--&gt;
   &lt;div id="chart"&gt;&lt;/div&gt;</code></pre>
       <pre><code class="hljs javascript">  // Javascript
-  let chart = new frappe.Chart( "#chart", { // or DOM element
+  let chart = new capkpi.Chart( "#chart", { // or DOM element
     data: {
       labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
       "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
@@ -162,7 +162,7 @@ redirect_to: "https://frappe.io/charts"
       <div class="btn-group export-buttons mt-1 mx-auto" role="group">
         <button type="button" class="btn btn-sm btn-secondary export-heatmap">Export ...</button>
       </div>
-      <pre><code class="hljs javascript margin-top">  let heatmap = new frappe.Chart("#heatmap", {
+      <pre><code class="hljs javascript margin-top">  let heatmap = new capkpi.Chart("#heatmap", {
     type: 'heatmap',
     title: "Monthly Distribution",
     data: {
@@ -183,8 +183,8 @@ redirect_to: "https://frappe.io/charts"
     <section>
       <h6>Demo</h6>
       <p data-height="299" data-theme-id="light" data-slug-hash="wjKBoq" data-default-tab="js,result"
-        data-user="pratu16x7" data-embed-version="2" data-pen-title="Frappe Charts Demo" class="codepen">
-          See the Pen <a href="https://codepen.io/pratu16x7/pen/wjKBoq/">Frappe Charts Demo</a>
+        data-user="pratu16x7" data-embed-version="2" data-pen-title="CapKPI Charts Demo" class="codepen">
+          See the Pen <a href="https://codepen.io/pratu16x7/pen/wjKBoq/">CapKPI Charts Demo</a>
           by Prateeksha Singh (<a href="https://codepen.io/pratu16x7">@pratu16x7</a>) on
           <a href="https://codepen.io">CodePen</a>.
       </p>
@@ -269,36 +269,36 @@ redirect_to: "https://frappe.io/charts"
     <section>
       <h6>Install</h6>
       <p>Install via npm</p>
-      <pre><code class="hljs console">  npm install frappe-charts</code></pre>
+      <pre><code class="hljs console">  npm install capkpi-charts</code></pre>
       <p>And include it in your project</p>
-      <pre><code class="hljs javascript">  import { Chart } from "frappe-charts"</code></pre>
+      <pre><code class="hljs javascript">  import { Chart } from "capkpi-charts"</code></pre>
       <p>(for ES6+ import the ESModule from the dist folder)</p>
-      <pre><code class="hljs javascript">  import { Chart } from "frappe-charts/dist/frappe-charts.esm.js"</code></pre>
+      <pre><code class="hljs javascript">  import { Chart } from "capkpi-charts/dist/capkpi-charts.esm.js"</code></pre>
       <p>... or include it directly in your HTML</p>
-      <pre><code class="hljs html">  &lt;script src="https://unpkg.com/frappe-charts@1.1.0"&gt;&lt;/script&gt;</code></pre>
+      <pre><code class="hljs html">  &lt;script src="https://unpkg.com/capkpi-charts@1.1.0"&gt;&lt;/script&gt;</code></pre>
       <p>Use as:</p>
       <pre><code class="hljs javascript">  new Chart();          // ES6 module
                         // or
-  new frappe.Chart();   // Browser</code></pre>
+  new capkpi.Chart();   // Browser</code></pre>
     </section>
 
     <section class="text-center">
       <!-- Closing -->
-      <a href="https://github.com/frappe/charts/archive/master.zip"><button class="large blue button btn">Download</button></a>
+      <a href="https://github.com/capkpi/charts/archive/master.zip"><button class="large blue button btn">Download</button></a>
       <p style="margin-top: 3rem;margin-bottom: 1.5rem;">
         <!-- <a href="docs.html" style="margin-right: 1rem;" target="_blank">Documentation</a> -->
-        <a href="https://github.com/frappe/charts" target="_blank">View on GitHub</a>
+        <a href="https://github.com/capkpi/charts" target="_blank">View on GitHub</a>
       </p>
       <p style="margin-top: 1rem;">
-        <a class="github-button" href="https://github.com/frappe/charts" data-icon="octicon-star" data-show-count="true" aria-label="Star frappe/charts on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/capkpi/charts" data-icon="octicon-star" data-show-count="true" aria-label="Star capkpi/charts on GitHub">Star</a>
       </p>
       <p>License: MIT</p>
     </section>
 
-    <footer class="built-with-frappe text-center">
-        <img style="padding: 5px; width: 40px; background: #fff" class="frappe-bird" src="./assets/img/frappe-bird.png">
+    <footer class="built-with-capkpi text-center">
+        <img style="padding: 5px; width: 40px; background: #fff" class="capkpi-bird" src="./assets/img/capkpi-bird.png">
         <p style="margin: 24px 0 0px 0; font-size: 15px">
-          Project maintained by <a href="https://frappe.io" target="_blank">Frappe</a>.
+          Project maintained by <a href="https://capkpi.io" target="_blank">CapKPI</a>.
           Used in <a href="https://erpnext.com" target="_blank">ERPNext</a>.
           Read the <a href="https://medium.com/@pratu16x7/so-we-decided-to-create-our-own-charts-a95cb5032c97" target="_blank">blog post</a>.
         </p>
@@ -309,7 +309,7 @@ redirect_to: "https://frappe.io/charts"
         </p>
     </footer>
 
-    <a href="https://github.com/frappe/charts" target="_blank" class="github-corner" aria-label="View source on Github">
+    <a href="https://github.com/capkpi/charts" target="_blank" class="github-corner" aria-label="View source on Github">
       <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#9a9a9a; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
         <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
@@ -317,7 +317,7 @@ redirect_to: "https://frappe.io/charts"
       </svg>
     </a>
 
-    <script src="assets/js/frappe-charts.min.js"></script>
+    <script src="assets/js/capkpi-charts.min.js"></script>
     <script src="assets/js/index.min.js"></script>
   </body>
 </html>

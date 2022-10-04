@@ -43,7 +43,7 @@ export default [
 		sourcemap: true,
 		output: [
 			{
-				file: 'docs/assets/js/frappe-charts.min.js',
+				file: 'docs/assets/js/capkpi-charts.min.js',
 				format: 'iife',
 			},
 			{
@@ -51,7 +51,7 @@ export default [
 				format: 'umd',
 			}
 		],
-		name: 'frappe',
+		name: 'capkpi',
 		plugins: [
 			postcssPlugin({
 				preprocessor: (content, id) => new Promise((resolve, reject) => {
@@ -90,7 +90,7 @@ export default [
 				format: 'iife',
 			}
 		],
-		name: 'frappe',
+		name: 'capkpi',
 		plugins: [
 			postcssPlugin({
 				preprocessor: (content, id) => new Promise((resolve, reject) => {
@@ -174,7 +174,7 @@ export default [
 					resolve({ code: result.css.toString() })
 				}),
 				extensions: ['.scss'],
-				extract: 'dist/frappe-charts.min.css',
+				extract: 'dist/capkpi-charts.min.css',
 				plugins: [
 					nested(),
 					cssnext({ warnForDuplicates: false }),

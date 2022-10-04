@@ -181,7 +181,7 @@ export default class BaseChart {
 
 		this.svg = makeSVGContainer(
 			this.container,
-			'frappe-chart chart',
+			'capkpi-chart chart',
 			this.baseWidth,
 			this.baseHeight
 		);

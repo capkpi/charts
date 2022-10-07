@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="https://github.com/frappe/design/blob/master/logos/logo-2019/frappe-charts-logo.png" height="128">
-    <a href="https://frappe.github.io/charts">
-        <h2>Frappe Charts</h2>
+    <img src="https://github.com/capkpi/design/blob/master/logos/logo-2019/capkpi-charts-logo.png" height="128">
+    <a href="https://capkpi.github.io/charts">
+        <h2>CapKPI Charts</h2>
     </a>
     <p align="center">
         <p>GitHub-inspired modern, intuitive and responsive charts with zero dependencies</p>
-        <a href="https://frappe.github.io/charts">
+        <a href="https://capkpi.github.io/charts">
             <b>Explore Demos » </b>
         </a>
         <a href="https://codepen.io/pratu16x7/pen/wjKBoq">
@@ -15,16 +15,16 @@
 </div>
 
 <p align="center">
-    <a href="https://travis-ci.org/frappe/charts">
-        <img src="https://img.shields.io/travis/frappe/charts.svg?style=flat-square">
+    <a href="https://travis-ci.org/capkpi/charts">
+        <img src="https://img.shields.io/travis/capkpi/charts.svg?style=flat-square">
     </a>
-    <a href="http://github.com/frappe/charts/tree/master/dist/js/frappe-charts.min.iife.js">
-        <img src="http://img.badgesize.io/frappe/charts/master/dist/frappe-charts.min.iife.js.svg?compression=gzip">
+    <a href="http://github.com/capkpi/charts/tree/master/dist/js/capkpi-charts.min.iife.js">
+        <img src="http://img.badgesize.io/capkpi/charts/master/dist/capkpi-charts.min.iife.js.svg?compression=gzip">
     </a>
 </p>
 
 <p align="center">
-    <a href="https://frappe.github.io/charts">
+    <a href="https://capkpi.github.io/charts">
         <img src=".github/example.gif">
     </a>
 </p>
@@ -32,7 +32,7 @@
 ### Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribute](https://frappe.io/charts/docs/contributing)
+* [Contribute](https://capkpi.com/charts/docs/contributing)
 * [Updates](#updates)
 * [License](#license)
 
@@ -40,27 +40,27 @@
 * Install via [`npm`](https://www.npmjs.com/get-npm):
 
   ```sh
-  $ npm install frappe-charts
+  $ npm install capkpi-charts
   ```
 
   and include in your project:
   ```js
-  import { Chart } from "frappe-charts"
+  import { Chart } from "capkpi-charts"
   ```
 
   ...or include following for es-modules(eg:vuejs):
   ```js
-  import { Chart } from 'frappe-charts/dist/frappe-charts.esm.js'
+  import { Chart } from 'capkpi-charts/dist/capkpi-charts.esm.js'
   // import css
-  import 'frappe-charts/dist/frappe-charts.min.css'
+  import 'capkpi-charts/dist/capkpi-charts.min.css'
   ```
 
 * ...or include within your HTML
 
   ```html
-    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/capkpi-charts@1.1.0/dist/capkpi-charts.min.iife.js"></script>
     <!-- or -->
-    <script src="https://unpkg.com/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
+    <script src="https://unpkg.com/capkpi-charts@1.1.0/dist/capkpi-charts.min.iife.js"></script>
   ```
 
 #### Usage
@@ -81,7 +81,7 @@ const data = {
     ]
 }
 
-const chart = new frappe.Chart("#chart", {  // or a DOM element,
+const chart = new capkpi.Chart("#chart", {  // or a DOM element,
                                             // new Chart() in case of ES6 module with above usage
     title: "My Awesome Chart",
     data: data,
@@ -91,9 +91,9 @@ const chart = new frappe.Chart("#chart", {  // or a DOM element,
 })
 ```
 
-...or for es-modules (replace `new frappe.Chart()` with `new Chart()`):
+...or for es-modules (replace `new capkpi.Chart()` with `new Chart()`):
 ```diff
-- const chart = new frappe.Chart("#chart", {
+- const chart = new capkpi.Chart("#chart", {
 + const chart = new Chart("#chart", {  // or a DOM element,
                                     // new Chart() in case of ES6 module with above usage
     title: "My Awesome Chart",
@@ -124,23 +124,23 @@ If you want to contribute:
     - Legend for axis charts
 - We would be looking to incorporate existing PRs and issues in the meantime.
 
-##### Please read [#93](https://github.com/frappe/charts/issues/93) for v0.1.0 updates on rework and development.
+##### Please read [#93](https://github.com/capkpi/charts/issues/93) for v0.1.0 updates on rework and development.
 
 ##### v0.0.7
-- [Custom color values](https://github.com/frappe/charts/pull/71) for charts as hex codes. The API now takes an array of colors for all charts instead of a color for each dataset.
+- [Custom color values](https://github.com/capkpi/charts/pull/71) for charts as hex codes. The API now takes an array of colors for all charts instead of a color for each dataset.
 - [@iamkdev's](https://github.com/iamkdev) blog on [usage with Angular](https://medium.com/@iamkdev/frappé-charts-with-angular-c9c5dd075d9f).
 
 ##### v0.0.5
-- More [flexible Y values](https://github.com/frappe/charts/commit/3de049c451194dcd8e61ff91ceeb998ce131c709): independent from exponent, minimum Y axis point for line graphs.
-- Customisable [Heatmap colors](https://github.com/frappe/charts/pull/53); check out the Halloween demo on the [website](https://frappe.github.io/charts) :D
-- Tooltip values can be [formatted](https://github.com/frappe/charts/commit/e3d9ed0eae14b65044dca0542cdd4d12af3f2b44).
+- More [flexible Y values](https://github.com/capkpi/charts/commit/3de049c451194dcd8e61ff91ceeb998ce131c709): independent from exponent, minimum Y axis point for line graphs.
+- Customisable [Heatmap colors](https://github.com/capkpi/charts/pull/53); check out the Halloween demo on the [website](https://capkpi.github.io/charts) :D
+- Tooltip values can be [formatted](https://github.com/capkpi/charts/commit/e3d9ed0eae14b65044dca0542cdd4d12af3f2b44).
 
 ##### v0.0.4
-- Build update: [Shipped](https://github.com/frappe/charts/pull/35) an ES6 module, along with the browser friendly IIFE.
+- Build update: [Shipped](https://github.com/capkpi/charts/pull/35) an ES6 module, along with the browser friendly IIFE.
 
 ##### v0.0.2
-- We have an animated [Pie Chart](https://github.com/frappe/charts/issues/29)! Thanks [@sheweichun](https://github.com/sheweichun).
-- [@tobiaslins](https://github.com/tobiaslins) contributed tweaks for his quest to make these easy to use with React. Check out his [repo](https://github.com/tobiaslins/frappe-charts-react-example) and updates at [#24](https://github.com/frappe/charts/issues/24) to learn more :)
+- We have an animated [Pie Chart](https://github.com/capkpi/charts/issues/29)! Thanks [@sheweichun](https://github.com/sheweichun).
+- [@tobiaslins](https://github.com/tobiaslins) contributed tweaks for his quest to make these easy to use with React. Check out his [repo](https://github.com/tobiaslins/capkpi-charts-react-example) and updates at [#24](https://github.com/capkpi/charts/issues/24) to learn more :)
 - A new logo.
 
 ##### v0.0.1
@@ -150,6 +150,6 @@ If you want to contribute:
 This repository has been released under the [MIT License](LICENSE)
 
 ------------------
-Project maintained by [Frappe](https://frappe.io).
+Project maintained by [CapKPI](https://capkpi.com).
 Used in [ERPNext](https://erpnext.com). Read the [blog post](https://medium.com/@pratu16x7/so-we-decided-to-create-our-own-charts-a95cb5032c97).
 

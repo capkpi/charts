@@ -1,13 +1,13 @@
 {
-  "name": "frappe-charts",
+  "name": "capkpi-charts",
   "version": "2.0.0-rc22",
-  "main": "dist/frappe-charts.esm.js",
-  "module": "dist/frappe-charts.esm.js",
-  "browser": "dist/frappe-charts.umd.js",
-  "common": "dist/frappe-charts.cjs.js",
-  "unnpkg": "dist/frappe-charts.umd.js",
+  "main": "dist/capkpi-charts.esm.js",
+  "module": "dist/capkpi-charts.esm.js",
+  "browser": "dist/capkpi-charts.umd.js",
+  "common": "dist/capkpi-charts.cjs.js",
+  "unnpkg": "dist/capkpi-charts.umd.js",
   "type": "module",
-  "description": "https://frappe.github.io/charts",
+  "description": "https://capkpi.github.io/charts",
   "directories": {
     "doc": "docs"
   },
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frappe/charts.git"
+    "url": "git+https://github.com/capkpi/charts.git"
   },
   "keywords": [
     "js",
@@ -32,9 +32,9 @@
   "author": "Prateeksha Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frappe/charts/issues"
+    "url": "https://github.com/capkpi/charts/issues"
   },
-  "homepage": "https://github.com/frappe/charts#readme",
+  "homepage": "https://github.com/capkpi/charts#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",

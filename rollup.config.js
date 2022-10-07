@@ -14,7 +14,7 @@ export default [
 		input: 'src/js/index.js',
 		output: {
 			sourcemap: true,
-			name: 'frappe-charts',
+			name: 'capkpi-charts',
 			file: pkg.browser,
 			format: 'umd'
 		},
@@ -24,7 +24,7 @@ export default [
 				exclude: ['node_modules/**']
 			}),
 			terser(),
-			scss({ output: 'dist/frappe-charts.min.css' }),
+			scss({ output: 'dist/capkpi-charts.min.css' }),
 			bundleSize()
 		]
 	},
